@@ -1,6 +1,6 @@
 # Praktikum 5 aruanne
 
-Viiendas praktikumis lahendasime ülesandeid linuxi käsureal. Sellele praktikumile kulus kokku umbes 1.5 tundi ja esimest korda jõudsin suurema osa materjalist praktikumitunnis juba valmis. Tunnen, et mõistan nüüd ubuntu käsurida veidi paremini ja ei tee kogu aeg liigseid käske. Järgnevalt on lisatud nii vastused küsimustele kui ka vajalikud kuvapaugud.
+Viiendas praktikumis lahendasime ülesandeid linuxi käsureal. Sellele praktikumile kulus kokku umbes 1.5 tundi ja esimest korda jõudsin suurema osa materjalist praktikumitunnis juba valmis. Tunnen, et mõistan nüüd ubuntu käsurida ja seeläbi failiõiguseid veidi paremini ja ei tee kogu aeg liigseid käske. Järgnevalt on lisatud nii vastused küsimustele kui ka vajalikud kuvapaugud.
 
 	•	Ülesanne 5-1:
 	◦	a) Kaustale on vaja execute ja failile read õiguseid.
