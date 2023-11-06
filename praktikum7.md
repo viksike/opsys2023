@@ -11,4 +11,4 @@
 5. Mount käsu parameeter -o ro lubab ainult lugemist. Parameeter -t auto tulemus on, et andmekandjaga ühilduv failisüsteem määratakse automaatselt.
 
 6. Auto asendati exfat'iga.
-7. Kahjuks ei saanud sellega hakkama :(.
+7. Kahjuks ei saanud sellega hakkama :(
