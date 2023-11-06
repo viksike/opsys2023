@@ -1,5 +1,7 @@
 #Praktikum 7 aruanne
 
+Seitsmendas praktikumis käsitlesime haakimise ja andmekandjate teemat. Ajakulu oli suhteliselt väike, kuid osad erinevused virtualboxi ja vmware'i vahel mõjutasid tulemust märgatavalt. Järgnev on tõestus mu lahendusest.
+
 1. Andmekandja peab lähtestama, et sedea üldse kasutada saaks, sest sellega  luuakse failisüsteem ja kettale saab luua partitsioonid.
 
 2. GPT toetab üle 2TB mahuga kettaid. GPT toetab 128't partitsiooni (MBR toetab nelja). Tõrgete korral on GPT kasutamisel suurem võimalus andmed taastada, sest need on ketta peal rohkemates erinevates kohtades.
