@@ -20,3 +20,4 @@ for i in *.$a; do
   fi
 done
 ![Screenshot 2023-11-27 at 11 11 55](https://github.com/viksike/opsys2023/assets/144438506/30672d86-91d0-4da9-a3c8-18937028961b)
+
