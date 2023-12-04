@@ -62,3 +62,5 @@ power() {
 result=$(power $1 $2)
 echo "$result"
 ![Screenshot 2023-12-04 at 10 29 25](https://github.com/viksike/opsys2023/assets/144438506/8d3e6e20-3d0f-4f47-a856-adcf4a9819ad)
+6.
+![Screenshot 2023-12-04 at 10 31 17](https://github.com/viksike/opsys2023/assets/144438506/27755360-0393-44ab-a2fd-a844e4d13861)
