@@ -1,4 +1,4 @@
-#Praktikum 12 aruanne
+# Praktikum 12 aruanne
 12 praktikum oli loogiline ja huvitav. AI abi oli ka hea kasutada, kui endal mõte kokku jooksis. Aega kulus kokku umbes tund.
 
 
