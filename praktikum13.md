@@ -3,40 +3,40 @@ Praktikum 13 polnud eriti lihtne, kuid sain vist ikkagi hakkama. Aega kulus umbe
 
 
 
-# Masina nimi (hostname), PowerShelli versioon ja Windowsi versioon
+#Masina nimi (hostname), PowerShelli versioon ja Windowsi versioon
 $hostname = hostname
 $psVersion = $PSVersionTable.PSVersion
 $osVersion = (Get-CimInstance Win32_OperatingSystem).Version
 
-# Võrgu config
+#Võrgu config
 $networkConfig = Get-WmiObject Win32_NetworkAdapterConfiguration -Filter "IPEnabled='True'" | Select-Object PSComputername, Description, IPAddress, IPSubnet, DefaultIPGateway, DHCPEnabled, MACAddress | Sort-Object DHCPEnabled
 
-# Protsessor ja RAM
+#Protsessor ja RAM
 $computerSystem = Get-WmiObject Win32_ComputerSystem | Select-Object Description, TotalPhysicalMemory
 
-# Graafika
+#Graafika
 $videoController = Get-WmiObject Win32_VideoController | Select-Object Name, DriverVersion, DriverDate, VideoModeDescription
 
-# Kõvaketas
+#Kõvaketas
 $diskInfo = Get-WmiObject Win32_DiskDrive | Select-Object PartitionStyle, Size, FreeSpace
 
-# Draiverid
+#Draiverid
 $pciDevices = Get-WmiObject Win32_PnPEntity | Select-Object Description, Manufacturer, DriverVersion
 
-# Kasutajad
+#Kasutajad
 $users = Get-WmiObject Win32_UserAccount | Select-Object Name, Description, LocalAccount, Disabled
 
-# Käimasolevad protsessid
+#Käimasolevad protsessid
 $processCount = (Get-Process).Count
 
-# 10 viimast protsessi
+#10 viimast protsessi
 $recentProcesses = Get-Process | Sort-Object StartTime -Descending | Select-Object -First 10 Name, ID, StartTime
 
-# Kuu ja kell
+#Kuu ja kell
 $dateTime = Get-Date
 
 
-# Väljund
+#Väljund
 Write-Host "Masina nimi: $hostname"
 Write-Host "PowerShelli versioon: $($psVersion.Major).$($psVersion.Minor)"
 Write-Host "Windowsi versioon: $osVersion"
