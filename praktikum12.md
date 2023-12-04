@@ -1,3 +1,7 @@
+#Praktikum 12 aruanne
+12 praktikum oli loogiline ja huvitav. AI abi oli ka hea kasutada, kui endal mõte kokku jooksis. Aega kulus kokku umbes tund.
+
+
 3.
 echo "Sisesta nimi: "
 read nimi
