@@ -1,5 +1,5 @@
 # Praktikum 13 aruanne
-Praktikum 13 polnud eriti lihtne, kuid sain vist ikkagi hakkama. Aega kulus umbes 2 tundi.
+Praktikum 13 polnud eriti lihtne, kuid sain vist ikkagi hakkama. Aega kulus umbes 2 tundi. Koodi ja kommentaaride korrektseks nägemiseks palun kasutada code vaadet, sest preview vaade ei ole päris tõetruu.
 
 
 
