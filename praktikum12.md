@@ -22,3 +22,5 @@ done
 ![Screenshot 2023-11-27 at 11 11 55](https://github.com/viksike/opsys2023/assets/144438506/30672d86-91d0-4da9-a3c8-18937028961b)
 
 5.
+
+![Screenshot 2023-12-04 at 10 21 07](https://github.com/viksike/opsys2023/assets/144438506/5745ab91-e00d-475a-9a7c-7753015eb768)
