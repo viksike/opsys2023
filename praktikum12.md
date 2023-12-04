@@ -48,3 +48,5 @@ done
 ![Screenshot 2023-12-04 at 10 21 07](https://github.com/viksike/opsys2023/assets/144438506/5745ab91-e00d-475a-9a7c-7753015eb768)
 
 6.
+
+![Screenshot 2023-12-04 at 10 27 15](https://github.com/viksike/opsys2023/assets/144438506/04539a86-a053-4b2c-91d1-de938f0ebcd9)
