@@ -48,5 +48,18 @@ done
 ![Screenshot 2023-12-04 at 10 21 07](https://github.com/viksike/opsys2023/assets/144438506/5745ab91-e00d-475a-9a7c-7753015eb768)
 
 6.
+#!/bin/bash
+
+power() {
+    local base=$1
+    local exponent=$2
+    if [ $exponent -eq 0 ]; then
+        echo 1
+    else
+        echo $((base * $(power $base $((exponent - 1)))))
+    fi
+}
+result=$(power $1 $2)
+echo "$result"
 
 ![Screenshot 2023-12-04 at 10 27 15](https://github.com/viksike/opsys2023/assets/144438506/04539a86-a053-4b2c-91d1-de938f0ebcd9)
