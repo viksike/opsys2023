@@ -27,14 +27,11 @@ done
 
 5.
 #!/bin/bash
-
-# Kontrollime, kas on antud argument
 if [ -z "$1" ]; then
     echo "Viga: puudub argument"
     exit 1
 fi
 
-# Leiame protsessi
 ps -A | while read line; do
     # Eemaldame korduvad tühikud
     line=$(echo "$line" | tr -s ' ')
