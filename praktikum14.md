@@ -1,5 +1,6 @@
 # Praktikum 14 aruanne
 Praktikum oli veidi keeruline, sest sain 4. ülesande juures errori, mida ei suutnud lahendada, kuigi kõik varasem ja vajalik oli korras. Praktikumile kulus kokku ~4 tundi. Järgnev on tõestus mu lahendustest.
+
 1.
 <img width="1728" alt="Screenshot 2023-12-11 at 11 13 27" src="https://github.com/viksike/opsys2023/assets/144438506/2b0a2c45-5f57-46b7-8fdf-2db695e06ccd">
 2.
